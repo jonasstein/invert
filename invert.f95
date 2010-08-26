@@ -2,7 +2,7 @@ program invert
   implicit none
 
   real, allocatable, dimension(:,:) :: A         !  n x n Matrix
-  real, allocatable, dimension(:,:) :: identity  !  n x n Matrix
+  real, allocatable, dimension(:,:) :: identity  !  n x n Matrix Einheitsmatrix
 
   integer :: n, m   !Dimension
   integer :: dim    !Dimension
